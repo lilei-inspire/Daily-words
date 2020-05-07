@@ -63,6 +63,7 @@ Page({
   onShareAppMessage: function () {
 
   },
+  //心情语录
   sent:function(){
     var th =this;
     wx.request({
@@ -72,7 +73,14 @@ Page({
           result:res.data
         })
       }
-    })
-    
-  }
+    })  
+  },
+  //音频播放
+  play1: function () {
+    this.setData({
+      action: {
+        method: 'play'
+      }
+    });
+  },
 })

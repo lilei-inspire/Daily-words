@@ -6,3 +6,9 @@
 <form>
 <view>{{result}}</view>
 </form>
+
+<audio poster="{{poster}}" name="{{name}}" author="{{author}}" src="https://sz-sycdn.kuwo.cn/ee845361529dc1e3880dd41be4f20459/5eb4035c/resource/n2/39/81/3430051340.mp3" action="{{action}}" controls loop="true"></audio>
+
+<view>
+<button class="play" bindtap="play1">播放</button>
+</view>
