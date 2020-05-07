@@ -1,0 +1,67 @@
+/* pages/home/home.wxss */
+page,view,text,swiper,swiper-item,navigator{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+.star_study{
+  margin-top: 32rpx;
+  width: 48rpx;
+  height: 78rpx;
+  border-radius:25px;
+  line-height:15px;
+  background-color: rgb(46, 100, 238);
+  color: white;
+}
+#top{
+  
+  font-size: 80rpx;
+  font-weight: 520;
+  color:red;
+}
+#top2{
+  word-wrap: break-word;
+  word-break: normal;
+  font-weight:540;
+  font-style: normal;
+}
+#image{
+  margin-top: 25rpx;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  padding: 3rpx;
+}
+.section input{
+  height: 15px;
+  border: 1px solid grey;
+  margin: 4%;
+  padding: 5px;
+  border-radius:3px;
+
+}
+.section button{
+  line-height:15px;
+  height: 30px;
+  border-radius: 50rpx;
+}
+.today_word_num{
+  font-size: 80rpx;
+  text-align: center;
+  font-weight: 800;
+}
+.lest_num{
+  font-size: 80rpx;
+  text-align: center;
+  font-weight: 800;
+}
+.word_num{
+  width: 100%;
+  height: 20rpx;
+  display: flex;
+  flex-direction: row;
+  background-color:white;
+  border-top: 7px solid ghostwhite;
+  justify-content: space-around;
+  font-weight: 400;
+  color: #515151;
+}

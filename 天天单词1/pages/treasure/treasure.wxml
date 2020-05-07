@@ -1,0 +1,11 @@
+<!--pages/treasure/treasure.wxml-->
+<text>pages/treasure/treasure.wxml</text>
+<view>
+<image id="image_a1" src="../image/about_movie.jpg" mode="aspectFill" />
+</view>
+<view>
+<image id="image_a2" src="../image/about_skill.jpg" mode="aspectFill" />
+</view>
+<view>
+<image id="image_a3" src="../image/about_studi.jpg" mode="aspectFill" />
+</view>

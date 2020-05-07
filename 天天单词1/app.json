@@ -1,0 +1,65 @@
+{
+  "pages": [
+
+    "pages/home/home",
+
+    "pages/me/me",
+    "pages/study/study",
+    "pages/test/test",
+    "pages/index/index", 
+    "pages/logs/logs",
+
+    "pages/treasure/treasure",
+
+    "pages/choice/choice",
+    "pages/collect_card/collect_card",
+    "pages/about/about",
+    "pages/my_word/my_word",
+    "pages/suggestion/suggestion",
+    "pages/sentence/sentence"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#4682B4",
+    "navigationBarTitleText": "天天单词",
+    "navigationBarTextStyle": "white"
+
+  },
+  "tabBar": {
+    "backgroundColor": "#F0F8FF",
+
+    "color": "#8a8a8a",
+    "selectedColor": "#191970",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "iconPath":"pages/image/home.png",
+        "selectedIconPath":"pages/image/homed.png",
+        "text":"首页"       
+      },
+      {
+        "pagePath": "pages/treasure/treasure",
+        "iconPath":"pages/image/xingqiu.png",
+        "selectedIconPath":"pages/image/xingqiu1.png",
+        "text": "宝库"
+       
+      },
+      {
+        "pagePath": "pages/sentence/sentence",
+        "iconPath":"pages/image/wodedanciben.png",
+        "selectedIconPath":"pages/image/wodedanciben1.png",
+        "text": "心情语录"
+       
+      },
+      {
+        "pagePath": "pages/me/me",
+        "iconPath":"pages/image/my.png",
+        "selectedIconPath":"pages/image/mine.png",
+        "text": "我的"
+       
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

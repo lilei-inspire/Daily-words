@@ -1,0 +1,8 @@
+
+<view class="textView">
+	<text>{{words}}</text>
+	<text>\n\n\n</text>
+  <text>{{text}}</text>
+	<text>\n\n</text>
+  <text >{{sentext}}</text>
+</view>

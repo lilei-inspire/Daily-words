@@ -1,0 +1,12 @@
+/* pages/my_word/my_word.wxss */
+@import "../choice/choice.wxss";
+/* //挑选单词书 */
+@import "../collect_card/collect_card.wxss";
+/* 收集单词的卡片 */
+.my_bg{
+  height: 1200rpx;
+  width: 100%;
+  background-color: #E6E6FA;
+
+  background-size:cover;
+}
