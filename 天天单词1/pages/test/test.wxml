@@ -5,4 +5,6 @@
   <text>{{text}}</text>
 	<text>\n\n</text>
   <text >{{sentext}}</text>
+	<button class="us" bindtap="us1">美式口音</button>
+	<button class="uk" bindtap="uk1">英式口音</button>
 </view>

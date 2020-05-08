@@ -37,8 +37,5 @@
 <text>\n</text>
 
 
-<button class="star_study" bindtap="start">开始学习</button>
-
-
 
 </view>

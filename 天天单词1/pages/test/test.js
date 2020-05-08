@@ -11,15 +11,17 @@ Page({
     console.log(options);
     var thispage = this;
     thispage.setData({
-      words: options.checkWord
+      words: options.checkWord//查询的单词
     });
     console.log(thispage.data.words);
     app.getInfo(options.checkWord, function (data) {
       if (data.data.cn_definition) {
         console.log(data.data.id);
+        console.log(data.data);
         thispage.setData({
           text: data.data.cn_definition.defn
         });
+    console.log(data.data.cn_definition.defn);
         app.getSen(data.data.id, function (data) {
           var sen = (data.data)[0].annotation;
           sen = sen.replace(/<[^>]+>/g, "");
@@ -28,7 +30,7 @@ Page({
           thispage.setData({
             sentext: showText
           });
-          console.log(sen);
+          console.log(showText);
         })
       } else {
         thispage.setData({
@@ -88,5 +90,31 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+//美式口音
+  us1:function(){
+    const innerAudioContext = wx.createInnerAudioContext()
+innerAudioContext.autoplay = true
+innerAudioContext.src = 'http://media.shanbay.com/audio/us/'+this.data.words+'.mp3'
+innerAudioContext.onPlay(() => {
+  console.log('开始播放')
+})
+innerAudioContext.onError((res) => {
+  console.log(res.errMsg)
+  console.log(res.errCode)
+})
+  },
+
+  uk1:function(){
+    const innerAudioContext = wx.createInnerAudioContext()
+innerAudioContext.autoplay = true
+innerAudioContext.src = 'http://media.shanbay.com/audio/uk/'+this.data.words+'.mp3'
+innerAudioContext.onPlay(() => {
+  console.log('开始播放')
+})
+innerAudioContext.onError((res) => {
+  console.log(res.errMsg)
+  console.log(res.errCode)
+})
   }
 })
