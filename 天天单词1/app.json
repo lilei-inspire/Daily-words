@@ -37,13 +37,7 @@
         "selectedIconPath":"pages/image/homed.png",
         "text":"首页"       
       },
-      {
-        "pagePath": "pages/treasure/treasure",
-        "iconPath":"pages/image/xingqiu.png",
-        "selectedIconPath":"pages/image/xingqiu1.png",
-        "text": "宝库"
-       
-      },
+
       {
         "pagePath": "pages/sentence/sentence",
         "iconPath":"pages/image/wodedanciben.png",

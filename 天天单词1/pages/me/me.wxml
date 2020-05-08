@@ -46,8 +46,6 @@
    <view class="itemcard" bindtap="about_me">
   <image style="width: 25px; height: 25px; background-color: #fff;" mode="scaleToFill" src="../../images/new.png"></image>
    　关于我们</view>
-   
-    <image mode="scaleToFill" src="../image/5.png"></image>
  <view wx:if="{{yes}}" class="have_done">
     <view class="first_notice">新选的词汇书会覆盖以往选择的 确定选择吗？</view>
     <view class="start_botton" bindtap="cancle">
